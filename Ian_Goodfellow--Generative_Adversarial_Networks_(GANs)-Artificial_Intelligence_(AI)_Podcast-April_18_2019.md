@@ -24,19 +24,19 @@ This is a quick transcript of the interview of Ian Goodfellow by [Lex Fridman](h
 
 
 
-## Interview to Ian Goodfellow
+## Introduction by Lex Fridman
 
-*The following is a conversation with Ian Goodfellow. He's the author of the popular textbook on deep learning simply titled "Deep Learning." He coined the term of Generative Adversarial Networks, otherwise known as GANs, and with his 2014 paper is responsible for launching the  incredible growth of research and innovation in this subfield of deep  learning. He got his BS and MS at Stanford, his PhD at University of  Montreal with Yoshua Bengio and Erin Courville. He held several research positions including an open AI Google brain and now at Apple as the director of machine learning. This recording happened while Ian was  still a Google Brain but we don't talk about anything specific to Google or any other organization. This conversation is part of the Artificial intelligence podcast. If you enjoy it, subscribe on YouTube, iTunes, or  simply connect with me on Twitter at @lexfridman. Now, here's my  conversation with Ian Goodfellow.*
+The following is a conversation with Ian Goodfellow. He's the author of the popular textbook on deep learning simply titled ["Deep Learning."](https://www.deeplearningbook.org/) He coined the term of [Generative Adversarial Networks](https://en.wikipedia.org/wiki/Generative_adversarial_network), otherwise known as GANs, and with his [2014 paper](https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf) is responsible for launching the  incredible growth of research and innovation in this subfield of deep  learning. He got his BS and MS at Stanford, his PhD at University of  Montreal with [Yoshua Bengio](https://yoshuabengio.org/) and [Aaron Courville](https://aaroncourville.wordpress.com/). He held several research positions including an open [AI Google Brain](https://research.google/teams/brain/) and now at [Apple as the Director of Machine Learning](https://machinelearning.apple.com/). This recording happened while Ian was still a Google Brain but we don't talk about anything specific to Google or any other organization. This conversation is part of the [Artificial intelligence podcast](https://lexfridman.com/ai/). If you enjoy it, subscribe on YouTube, iTunes, or  simply connect with me on Twitter at @[lexfridman](https://twitter.com/lexfridman). Now, here's my  conversation with Ian Goodfellow.
 
 
+
+## Start of Interview
 
 ### *On Deep Learning*
 
 **[Lex]** You open your popular "Deep Learning" book with a Russian doll type diagram that shows deep learning is a subset of representation learning, which  in turn is a subset of machine learning, and finally a subset of AI. This kind of implies that there may be limits to deep learning in the  context of AI. What do you think is the current limits of deep learning  and are those limits something that we can overcome with time?
 
 **[Ian]** I think one of the biggest limitations of deep learning is that right now it requires really a lot of data, especially labeled data. There's some unsupervised and semi-supervised learning algorithms that can reduce the amount of labeled data you need, but they still require a lot of unlabeled data. Reinforcement Learning algorithms they don't need labels but they need really a lot of experiences. As human beings we don't  want to play Pong by failing at Pong two million times. So, just getting the generalization ability better is one of the most important  bottlenecks and the capability of the technology today. Then, I guess, I'd also say deep learning is like a component of a bigger system. So far, nobody is really proposing to have only what you'd call deep learning as the entire ingredient of intelligence. You use deep learning as sub-modules of other systems. Like Alpha-Go has a deep learning  model that estimates the value function, most reinforcement learning  algorithms have a deep learning module that estimates which action to  take next but you might have other components.
-
-![No alt text provided for this image](assets/0.png)
 
 **[Lex]** Here basically, as building a function estimator, do you think it's possible -you said nobody is kind of in thinking about this so far-, but do you  think neural networks could be made to reason in the way symbolic  systems did in the 80s and 90s, to do more, create more, like programs  as opposed to functions?
 
@@ -83,8 +83,6 @@ This is a quick transcript of the interview of Ian Goodfellow by [Lex Fridman](h
 **[Lex]** in speech recognition has there been much success in being able to create adversarial examples that fool the system?
 
 **[Ian]** Yeah. Actually I guess the first work that I'm aware of is a paper called  "Hidden voice commands" that came out in 2016, I believe. And they were able to show that they could make sounds that are not understandable by a human but are recognized as the target phrase that the attacker wants  the phone to recognize it as. Since then, things have gotten a little  bit better on the attacker side when worse on the defender side. It's  become possible to make sounds that sound like normal speech but are  actually interpreted as a different sentence than the human hears. The  level of perceptibility of the adversarial perturbation is still kind of high the when you listen to the recording it sounds like there's some noise in the background, just like rustling sounds, but those rustling sounds are actually the adversarial perturbation that makes the phone  hear a completely different sentence.
-
-
 
 ### On writing the Deep Learning chapter for a new AI book
 
@@ -280,4 +278,36 @@ This is a quick transcript of the interview of Ian Goodfellow by [Lex Fridman](h
 
 
 
-Video: https://www.youtube.com/watch?v=Z6rxFNMGdn0
+## End of Interview
+
+
+
+## References
+
+
+
+## Links
+
+Article in LinkedIn: https://www.linkedin.com/pulse/transcript-interview-ian-goodfellow-lex-fridman-alfonso-r-reyes/
+
+Tweet: 
+
+Transcript in GitHub: https://github.com/f0nzie/transcript_interview_ian_goodfellow_by_lex_fridman
+
+YouTube video: https://www.youtube.com/watch?v=Z6rxFNMGdn0
+
+Podcast: https://lexfridman.com/ian-goodfellow/
+
+
+
+## Toolbox
+
+Software used by Alfonso R. Reyes to create this transcript:
+
+*   Typora: https://www.typora.io/
+*   Text Editor and Git: [Visual Studio Code](https://code.visualstudio.com/)
+*   Repository: [GitHub](https://github.com/)
+*   YouTube video downloader: [4K Video Downloader](https://www.4kdownload.com/products/product-videodownloader)
+*   Extract subtitles: [SubTitle Edit](https://www.videohelp.com/software/Subtitle-Edit)
+*   Internet browser: [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+*   Operating System: [Debian 10](https://www.debian.org/News/2019/20190706)
