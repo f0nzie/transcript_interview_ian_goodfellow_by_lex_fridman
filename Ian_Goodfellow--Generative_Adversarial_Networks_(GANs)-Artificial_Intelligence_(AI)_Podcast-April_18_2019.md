@@ -1,10 +1,26 @@
 ---
+title: Transcript of interview to Ian Goodfellow by Lex Fridman
+author: Alfonso R. Reyes
+date: 2019-04-18
+categories: [ai, artificial intelligence, transcript]
+output: 
+  pdf_document: 
+    highlight: pygments
+    toc: yes
+    toc_depth: 4
+urlcolor: blue    
 typora-copy-images-to: ./assets
 ---
 
+# Transcript of interview to Ian Goodfellow by Lex Fridman
+
+![cover](assets/cover.png)
+
+
+
 ## Ian Goodfellow: Generative Adversarial Networks (GANs) | MIT Artificial Intelligence (AI) Podcast | April 18, 2019
 
-This is a quick transcript of the interview of Ian Goodfellow by [Lex Fridman](https://www.linkedin.com/in/lexfridman). The interview has been published in [YouTube](https://www.youtube.com/watch?v=Z6rxFNMGdn0) as well as a podcast. Goodfellow points at so many areas in the future  where ML and AI could bring astonishing discoveries. Enjoy! *Alfonso R. Reyes. The Woodlands, Texas.*
+This is a quick transcript of the interview of Ian Goodfellow by [Lex Fridman](https://www.linkedin.com/in/lexfridman). The interview has been published in [YouTube](https://www.youtube.com/watch?v=Z6rxFNMGdn0) as well as a podcast. Goodfellow points at so many areas in the future where ML and AI could bring astonishing discoveries. Enjoy! *Alfonso R. Reyes. The Woodlands, Texas.*
 
 
 
